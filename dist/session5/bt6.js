@@ -26,11 +26,16 @@ class Library {
         });
     }
 }
-// Khởi tạo các đối tượng Book
 const book1 = new Book("To Kill a Mockingbird", "Harper Lee");
 const book2 = new Book("1984", "George Orwell");
+const book3 = new Book("The Great Gatsby", "F. Scott Fitzgerald");
+const book4 = new Book("Brave New World", "Aldous Huxley");
+const book5 = new Book("css", "Charles Dickens");
 const library = new Library();
 library.addBook(book1);
 library.addBook(book2);
+library.addBook(book3);
+library.addBook(book4);
+library.addBook(book5);
 library.listBooks();
 //# sourceMappingURL=bt6.js.map

@@ -49,9 +49,15 @@ class Library {
 }
 const book1 = new Book(1, "To Kill a Mockingbird", "Harper Lee");
 const book2 = new Book(2, "1984", "George Orwell");
+const book3 = new Book(3, "The Great Gatsby", "F. Scott Fitzgerald");
+const book4 = new Book(4, "Brave New World", "Aldous Huxley");
+const book5 = new Book(5, "CSS: The Definitive Guide", "Charles Dickens");
 const library = new Library();
 library.addBook(book1);
 library.addBook(book2);
+library.addBook(book3);
+library.addBook(book4);
+library.addBook(book5);
 library.listBooks();
 // sua thong tin
 library.updateBook(1, "To Kill a Mockingbird - Updated", "Harper Lee Updated");
