@@ -21,7 +21,6 @@ class Rectangle extends Shape {
         return `Rectangle ${this.getName()} has width ${this.width} and height ${this.height}.`;
     }
 }
-// Example usage
 const rectangle = new Rectangle("MyRectangle", 10, 5);
 console.log(rectangle.getName());
 console.log(rectangle.getSize());

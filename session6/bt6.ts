@@ -50,7 +50,6 @@ class Classroom {
         }
     }
 }
-// Example usage
 const allStudents: Student[] = [];
 allStudents.push(new Student(1, "Alice"));
 allStudents.push(new Student(2, "Bob"));

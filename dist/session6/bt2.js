@@ -28,7 +28,6 @@ class FulltimeJob extends Job {
         return FulltimeJob.fullTimeSalary;
     }
 }
-// Example usage
 const partTimeJob = new ParttimeJob("Part-time Developer", 160);
 const fullTimeJob = new FulltimeJob("Full-time Developer");
 partTimeJob.printType();

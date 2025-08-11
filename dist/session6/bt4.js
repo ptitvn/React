@@ -26,7 +26,6 @@ class Rectangle {
         return 2 * (this.width + this.height);
     }
 }
-// Example usage
 const circle = new Circle(5);
 const rectangle = new Rectangle(10, 5);
 console.log(`Circle area: ${circle.calculateArea()}`);
