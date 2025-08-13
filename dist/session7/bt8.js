@@ -45,9 +45,8 @@ class CheckingAccount extends Account {
         }
     }
 }
-const checkingAccount = new CheckingAccount("CA12345", 1000, 500);
+const checkingAccount = new CheckingAccount("CA12345", 1010, 500);
 checkingAccount.deposit(200);
-checkingAccount.withdraw(1200);
+checkingAccount.withdraw(2200);
 checkingAccount.showHistory();
-checkingAccount.withdraw(500);
 //# sourceMappingURL=bt8.js.map

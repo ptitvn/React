@@ -1,10 +1,10 @@
-class Account {
+abstract class Account {
     public id: number;
     public userName: string;
     private password: string;
     public isLogin: boolean;
     public role: string;
-
+    
     constructor(id: number, userName: string, password: string, role: string) {
         this.id = id;
         this.userName = userName;
@@ -12,7 +12,7 @@ class Account {
         this.isLogin = false;
         this.role = role;
     }
-
+    
     login(): void {
         console.log(`${this.userName} đã đăng nhập.`);
         this.isLogin = true;
@@ -57,7 +57,7 @@ class adminAcc extends Account {
 const user1 = new userAcc(1, "user1", "password1", "user", "active");
 user1.login();
 user1.logout();
-const user2 = new userAcc(2, "user2", "password2", "user", "banned");
+const user2 = new userAcc(2, "user2", "1234567", "user", "banned");
 user2.login();
 user2.logout();
 const admin = new adminAcc(3, "admin", "adminpass", "admin");

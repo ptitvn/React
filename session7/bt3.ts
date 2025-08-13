@@ -39,4 +39,3 @@ cat.makeNoise();
 const dog = new Dog("Dog");
 dog.printName();
 dog.makeNoise();
-

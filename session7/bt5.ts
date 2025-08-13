@@ -1,4 +1,4 @@
-class Account {
+abstract class Account {
     public id: number;
     public userName: string;
     private password: string;
@@ -13,10 +13,7 @@ class Account {
         this.role = role;
     }
 
-    login(): void {
-        console.log(`${this.userName} đã đăng nhập.`);
-        this.isLogin = true;
-    }
+    abstract login(): void;
 
     logout(): void {
         if (this.isLogin) {
@@ -36,7 +33,8 @@ class userAcc extends Account {
 
     login(): void {
         if (this.status === "active") {
-            super.login();
+            this.isLogin = true;
+            console.log(`${this.userName} đã đăng nhập.`);
         } else {
             console.log("Tài khoản đã bị khóa.");
         }
@@ -50,3 +48,4 @@ user1.logout();
 const user2 = new userAcc(2, "user2", "password2", "user", "banned");
 user2.login();
 user2.logout();
+

@@ -13,10 +13,6 @@ class Account {
         this.isLogin = false;
         this.role = role;
     }
-    login() {
-        console.log(`${this.userName} đã đăng nhập.`);
-        this.isLogin = true;
-    }
     logout() {
         if (this.isLogin) {
             console.log(`${this.userName} đã đăng xuất.`);
@@ -32,7 +28,8 @@ class userAcc extends Account {
     }
     login() {
         if (this.status === "active") {
-            super.login();
+            this.isLogin = true;
+            console.log(`${this.userName} đã đăng nhập.`);
         }
         else {
             console.log("Tài khoản đã bị khóa.");
