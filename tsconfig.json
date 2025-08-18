@@ -4,12 +4,16 @@
     // File Layout
     "rootDir": ".",
     "outDir": "./dist",
-
+    
+     "target": "es2019",
+    "module": "commonjs",
+    "types": ["node"], 
+    "strict": true,
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "esnext",
-    "types": [],
+    // "module": "nodenext",
+    // "target": "esnext",
+    // "types": [],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],

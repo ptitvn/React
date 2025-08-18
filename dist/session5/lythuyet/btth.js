@@ -1,9 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Animal {
-    name;
-    age;
-    species;
     constructor(name, age, species) {
         this.name = name;
         this.age = age;
@@ -26,7 +23,6 @@ class Animal {
     }
 }
 class Dog extends Animal {
-    breed;
     constructor(name, age, species, breed) {
         super(name, age, species);
         this.breed = breed;

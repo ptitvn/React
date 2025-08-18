@@ -1,9 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Student {
-    id;
-    age;
-    email;
     constructor(id, age, email) {
         this.id = id;
         this.age = age;

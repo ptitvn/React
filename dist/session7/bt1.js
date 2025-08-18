@@ -1,9 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Employee {
-    name;
-    company;
-    phone;
     constructor(name, company, phone) {
         this.name = name;
         this.company = company;
@@ -16,7 +13,6 @@ class Employee {
     }
 }
 class Manager extends Employee {
-    teamSize;
     constructor(name, company, phone, teamSize) {
         super(name, company, phone);
         this.teamSize = teamSize;

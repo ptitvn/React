@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Vehicle {
-    speed;
     constructor(initialSpeed = 0) {
         this.speed = initialSpeed;
     }

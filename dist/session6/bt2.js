@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Job {
-    type;
     constructor(type) {
         this.type = type;
     }
@@ -10,7 +9,6 @@ class Job {
     }
 }
 class ParttimeJob extends Job {
-    workingHour;
     constructor(type, workingHour) {
         super(type);
         this.workingHour = workingHour;
@@ -20,7 +18,6 @@ class ParttimeJob extends Job {
     }
 }
 class FulltimeJob extends Job {
-    static fullTimeSalary = 10000000;
     constructor(type) {
         super(type);
     }
@@ -28,6 +25,7 @@ class FulltimeJob extends Job {
         return FulltimeJob.fullTimeSalary;
     }
 }
+FulltimeJob.fullTimeSalary = 10000000;
 const partTimeJob = new ParttimeJob("Part-time Developer", 160);
 const fullTimeJob = new FulltimeJob("Full-time Developer");
 partTimeJob.printType();

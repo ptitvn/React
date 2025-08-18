@@ -1,9 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Employee {
-    name;
-    company;
-    phone;
     constructor(name, company, phone) {
         this.name = name;
         this.company = company;

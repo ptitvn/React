@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/ptitvn/React/issues"
   },
-  "homepage": "https://github.com/ptitvn/React#readme"
+  "homepage": "https://github.com/ptitvn/React#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1"
+  }
 }

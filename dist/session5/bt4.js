@@ -1,10 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Vehicle {
-    name;
-    year;
-    company;
-    id;
     constructor(name, year, company, id) {
         this.name = name;
         this.year = year;

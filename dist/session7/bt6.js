@@ -1,11 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Account {
-    id;
-    userName;
-    password;
-    isLogin;
-    role;
     constructor(id, userName, password, role) {
         this.id = id;
         this.userName = userName;
@@ -25,7 +20,6 @@ class Account {
     }
 }
 class userAcc extends Account {
-    status;
     constructor(id, userName, password, role, status) {
         super(id, userName, password, role);
         this.status = status;

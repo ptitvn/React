@@ -1,8 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Student {
-    id;
-    name;
     constructor(id, name) {
         this.id = id;
         this.name = name;
@@ -15,7 +13,9 @@ class Student {
     }
 }
 class Classroom {
-    students = [];
+    constructor() {
+        this.students = [];
+    }
     showStudents() {
         console.log("Students in the classroom:");
         this.students.forEach(student => {

@@ -1,10 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Book {
-    id;
-    title;
-    author;
-    year;
     constructor(id, title, author, year) {
         this.id = id;
         this.title = title;
@@ -35,7 +31,9 @@ class Book {
     }
 }
 class Library {
-    books = [];
+    constructor() {
+        this.books = [];
+    }
     addBook(book) {
         this.books.push(book);
     }

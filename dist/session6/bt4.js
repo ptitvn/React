@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Circle {
-    radius;
     constructor(radius) {
         this.radius = radius;
     }
@@ -13,8 +12,6 @@ class Circle {
     }
 }
 class Rectangle {
-    width;
-    height;
     constructor(width, height) {
         this.width = width;
         this.height = height;

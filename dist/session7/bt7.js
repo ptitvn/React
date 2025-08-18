@@ -1,11 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 class Account {
-    accountNumber;
-    balance = 0;
-    history = [];
-    status = "active";
     constructor(accountNumber, initialBalance) {
+        this.balance = 0;
+        this.history = [];
+        this.status = "active";
         this.accountNumber = accountNumber;
         this.balance = initialBalance;
     }
@@ -30,7 +29,6 @@ class Account {
     }
 }
 class SavingAccount extends Account {
-    interestRate;
     constructor(accountNumber, initialBalance, interestRate) {
         super(accountNumber, initialBalance);
         this.interestRate = interestRate;
