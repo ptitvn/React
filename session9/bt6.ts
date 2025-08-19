@@ -12,7 +12,7 @@ class DataStore<T> {
   }
 
   getAll(): T[] {
-    return [...this.data]; // Trả về bản sao để tránh thay đổi trực tiếp
+    return [...this.data]; 
   }
 
   remove(index: number): void {

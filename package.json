@@ -17,9 +17,14 @@
   },
   "homepage": "https://github.com/ptitvn/React#readme",
   "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@types/node": "^24.2.1"
+    "@types/node": "^24.2.1",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "vite": "^7.1.3"
   }
 }

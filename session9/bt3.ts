@@ -5,4 +5,4 @@ const person = { name: "Alice" };
 const job = { role: "Developer" };
 
 const merged = mergeObjects(person, job);
-console.log(merged); 
+console.log(merged);

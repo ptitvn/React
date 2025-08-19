@@ -8,7 +8,7 @@
      "target": "es2019",
     "module": "commonjs",
     "types": ["node"], 
-    "strict": true,
+    // "strict": true,
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     // "module": "nodenext",
@@ -45,5 +45,5 @@
     "moduleDetection": "force",
     "skipLibCheck": true,
   },
-  "include": ["**/*.ts"],
+  "include": ["**/*.ts", "vite-project/src/session12/bt2.tsx", "vite-project/src/session12/bt1.tsx"],
 }
