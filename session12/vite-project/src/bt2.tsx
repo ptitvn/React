@@ -1,12 +1,12 @@
-import React from 'react';
+import { Component } from 'react'
 
-const Calculation: React.FC = () => {
+export default class bt2 extends Component {
+  render() {
     const add = (a: number, b: number) => a + b;
     const subtract = (a: number, b: number) => a - b;
     const multiply = (a: number, b: number) => a * b;
     const divide = (a: number, b: number) => a / b;
 
-    // Các giá trị cho phép tính
     const a = 10;
     const b = 10;
 
@@ -21,6 +21,5 @@ const Calculation: React.FC = () => {
             </ul>
         </div>
     );
-};
-
-export default Calculation;
+  }
+}

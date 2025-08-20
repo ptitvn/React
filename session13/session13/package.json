@@ -1,5 +1,5 @@
 {
-  "name": "session12",
+  "name": "session13",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -26,5 +26,4 @@
     "typescript-eslint": "^8.39.1",
     "vite": "^7.1.2"
   }
-  
 }

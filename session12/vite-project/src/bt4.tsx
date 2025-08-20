@@ -1,10 +1,9 @@
-import React from 'react';
+import { Component } from 'react'
+export default class bt4 extends Component {
+  render() {
 
-interface ColorBoxProps {
-    color: string;
-}
 
-const ColorBox: React.FC<ColorBoxProps> = ({ color }) => {
+    const color = 'blue';
     const boxStyle = {
         width: '200px',
         height: '200px',
@@ -22,6 +21,5 @@ const ColorBox: React.FC<ColorBoxProps> = ({ color }) => {
             Box
         </div>
     );
-};
-
-export default ColorBox;
+  }
+}

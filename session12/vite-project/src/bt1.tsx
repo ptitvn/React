@@ -1,23 +1,29 @@
-import React from 'react';
+import { Component } from 'react'
 
-const ListCourse: React.FC = () => {
-  const courses = ['HTML', 'CSS', 'JavaScript', 'ReactJS'];
+export default class bt1 extends Component {
+  courses = [
+    'ReactJS',
+    'NodeJS',
+    'TypeScript',
+    'MongoDB'
+  ];
 
-  return (
-    <div>
+  render() {
+    return (
+       <div>
       <h2 style={{ fontWeight: 'bold', fontSize: '24px', marginBottom: '16px' }}>
         Danh sách khóa học
       </h2>
       <ol>
-        {courses.map((course, index) => (
+        {this.courses.map((course, index) => (
           <li key={index} style={{ fontSize: '18px', marginBottom: '8px' }}>
             {course}
           </li>
         ))}
       </ol>
     </div>
-  );
-};
+    )
+  }
+}
 
-export default ListCourse;
 

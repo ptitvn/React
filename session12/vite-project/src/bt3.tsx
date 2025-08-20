@@ -1,7 +1,8 @@
-import React from 'react';
+import { Component } from 'react'
 
-const UserInfo: React.FC = () => {
-  const user = {
+export default class bt3 extends Component {
+  render() {
+      const user = {
     fullName: 'Nguyễn Văn A',
     gender: 'Nam',
     birthDate: '06/03/2024',
@@ -21,6 +22,5 @@ const UserInfo: React.FC = () => {
       </ul>
     </div>
   );
-};
-
-export default UserInfo;
+  }
+}

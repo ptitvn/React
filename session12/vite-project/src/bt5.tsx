@@ -1,6 +1,7 @@
-import React from 'react';
+import  { Component } from 'react'
 
-const FormatName: React.FC = () => {
+export default class bt5 extends Component {
+  render() {
     const user = {
         firstName: "Nguyễn Văn",
         lastName: "Nam",
@@ -15,6 +16,5 @@ const FormatName: React.FC = () => {
             <h2 style={{fontFamily: 'Times New Roman'}}>Họ và tên: {formatName(user)}</h2>
         </div>
     );
-};
-
-export default FormatName;
+  }
+}
