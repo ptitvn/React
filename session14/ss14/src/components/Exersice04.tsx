@@ -1,7 +1,8 @@
-import { Component } from 'react';
+import{ Component } from 'react';
 
 interface State {
   slogan: string;
+  allowRender: boolean;
 }
 
 export default class Exersice04 extends Component<object, State> {
@@ -9,20 +10,28 @@ export default class Exersice04 extends Component<object, State> {
     super(props);
     this.state = {
       slogan: 'Học code để đi làm',
+      allowRender: true,
     };
   }
 
-  handleClick = () => {
+  handleChangeSlogan = () => {
     this.setState({
       slogan: 'Học code sẽ thành công. Cố lên!!!',
+      allowRender: false,
     });
   };
+
+  shouldComponentUpdate(_: object, nextState: State): boolean {
+    return nextState.allowRender;
+  }
 
   render() {
     return (
       <div>
-        <h2>Slogan: {this.state.slogan}</h2>
-        <button onClick={this.handleClick}>Change state</button>
+        <h3>Slogan: {this.state.slogan}</h3>
+        <button onClick={this.handleChangeSlogan}>
+          Change state
+        </button>
       </div>
     );
   }
