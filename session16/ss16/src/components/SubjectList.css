@@ -1,0 +1,37 @@
+/* body{
+    background-color: black;
+    color: white;
+} */
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.subject-button {
+  background-color: #add8e6; 
+  color: #0c5b75;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subject-button:hover {
+  background-color: #87ceeb; 
+}

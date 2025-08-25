@@ -1,0 +1,30 @@
+.login-container {
+  text-align: center;
+  padding: 30px;
+  background-color: #ebfbff;
+  border-radius: 12px;
+  width: 300px;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-button {
+  background-color: #3e98ec;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #67a9e6;
+}
