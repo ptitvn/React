@@ -1,7 +1,7 @@
-// import Bt1 from "./components/bt1"
+import Bt1 from "./components/bt1"
 // import Bt2 from "./components/bt2"
 
-import Checkbox from "./components/Checkbox"
+// import Checkbox from "./components/Checkbox"
 
 // import Select from "./components/Select"
 
@@ -17,14 +17,14 @@ function App() {
 
   return (
     <>
-     {/* <Bt1 /> */}
+     <Bt1 />
      {/* <Bt2 /> */}
      {/* <ChangeColor /> */}
      {/* <Toggle  /> */}
      {/* <Form  /> */}
      {/* <CountText /> */}
      {/* <Select /> */}
-      <Checkbox />
+      {/* <Checkbox /> */}
     </>
   )
 }

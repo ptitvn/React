@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const App = () => {
+const bt1 = () => {
   const [name] = useState<string>('Nguyễn Văn A');
 
   return (
@@ -10,4 +10,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default bt1;
