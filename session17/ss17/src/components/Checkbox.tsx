@@ -1,6 +1,6 @@
 import { useState,  } from 'react';
 
-function Checkbox() {
+export default function Checkbox() {
   const hobbies = ['Đi chơi', 'Code', 'Ăn uống', 'Nhảy dây'];
   const [selectedHobbies, setSelectedHobbies] = useState<string[]>([]);
 
@@ -33,4 +33,3 @@ function Checkbox() {
   );
 }
 
-export default Checkbox;

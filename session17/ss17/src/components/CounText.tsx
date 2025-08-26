@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function CountText() {
+export default function CountText() {
   const [text, setText] = useState<string>('');
 
   const handleChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -21,4 +21,3 @@ function CountText() {
   );
 }
 
-export default CountText;

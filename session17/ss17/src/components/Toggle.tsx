@@ -1,6 +1,6 @@
 import  { useState } from 'react';
 
-function Toggle() {
+export default  function Toggle() {
   const [isVisible, setIsVisible] = useState(false);
 
   const handleToggle = () => {
@@ -17,4 +17,3 @@ function Toggle() {
   );
 }
 
-export default Toggle;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function ProductInfo() {
+export default function ProductInfo() {
   const [product] = useState({
     id: 1,
     name: 'Coca cola',
@@ -19,4 +19,3 @@ function ProductInfo() {
   );
 }
 
-export default ProductInfo;

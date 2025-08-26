@@ -1,6 +1,6 @@
 import { useState, type ChangeEvent } from 'react';
 
-function Select() {
+export default function Select() {
   const [selectedCity, setSelectedCity] = useState<string>('');
 
   const cities: string[] = [
@@ -34,4 +34,3 @@ function Select() {
   );
 }
 
-export default Select;

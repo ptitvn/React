@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Form() {
+export default function Form() {
   const [inputValue, setInputValue] = useState('');
 
   const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
@@ -20,4 +20,3 @@ function Form() {
   );
 }
 
-export default Form;

@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const bt1 = () => {
+export default function bt1() {
   const [name] = useState<string>('Nguyễn Văn A');
 
   return (
@@ -10,4 +10,3 @@ const bt1 = () => {
   );
 };
 
-export default bt1;
