@@ -1,8 +1,8 @@
 // import StringLengthChecker from "./components/bt1"
 
-import ModalWithFocus from "./components/bt6"
+// import ModalWithFocus from "./components/bt6"
 
-// import Timer from "./components/bt5"
+import Timer from "./components/bt5"
 
 // import PageTitle from "./components/bt4"
 
@@ -19,8 +19,8 @@ function App() {
      {/* <UserProfile/> */}
      {/* <Welcome/> */}
      {/* <PageTitle/> */}
-     {/* <Timer/> */}
-     <ModalWithFocus/>
+     <Timer/>
+     {/* <ModalWithFocus/> */}
     </>
   )
 }
