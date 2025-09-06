@@ -1,6 +1,7 @@
 // import Bt1 from "./components/bt1"
 
-import Bt6 from "./components/bt6"
+// import Bt6 from "./components/bt6"
+import Bt7 from "./components/bt7"
 
 // import Bt5 from "./components/bt5"
 
@@ -25,7 +26,8 @@ function App() {
       </div> */}
       {/* <Bt4/> */}
       {/* <Bt5/> */}
-      <Bt6/>
+      {/* <Bt6/> */}
+      <Bt7/>
     </>
   )
 }
